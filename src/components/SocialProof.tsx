@@ -38,8 +38,7 @@ export default function SocialProof() {
             ))}
             <span className="text-xs font-bold ml-2">4.9/5 de satisfação</span>
           </motion.div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">O que dizem quem já usa</h2>
-          <p className="text-brand-gray">Resultados reais de quem transformou o perfil com a Hype Content.</p>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">Quem usa confia</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

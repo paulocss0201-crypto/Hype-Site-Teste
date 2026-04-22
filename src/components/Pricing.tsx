@@ -64,9 +64,9 @@ export default function Pricing() {
               {[
                 "10 agentes de IA dedicados",
                 "Sistema para organizar os conteúdos",
-                "Manual de prompts (bonûs)",
-                "Checklist de perfil (bonûs)",
-                "1 Agente surpresa (bonûs)",
+                "Manual de prompts (bônus)",
+                "Checklist de perfil (bônus)",
+                "1 Agente surpresa (bônus)",
                 "Acesso vitálicio",
                 "Pagamento único"
               ].map((item, i) => (

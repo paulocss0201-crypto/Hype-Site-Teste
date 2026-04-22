@@ -61,10 +61,6 @@ export default function FAQ() {
     {
       question: "O acesso é vitalício mesmo?",
       answer: "Sim, no momento estamos com uma oferta especial de pagamento único. Isso significa que você paga uma vez e tem acesso aos agentes para sempre, sem mensalidades ou taxas escondidas enquanto o programa estiver ativo. É um investimento no seu negócio que se paga na primeira pauta estratégica criada."
-    },
-    {
-      question: "Como recebo o acesso após a compra?",
-      answer: "Imediatamente após a confirmação do pagamento, você receberá um e-mail com todas as instruções e o link de acesso à nossa plataforma exclusiva onde seus agentes de IA estarão aguardando por você."
     }
   ];
 
