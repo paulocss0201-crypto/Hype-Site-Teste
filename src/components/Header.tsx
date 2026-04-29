@@ -49,16 +49,6 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden md:block">
-          <a 
-            href="https://checkout.payhypecontent.com.br/VCCL1O8SCQ5M"
-            className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-brand-gray transition-colors flex items-center gap-2 group"
-          >
-            Começar agora
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </a>
-        </div>
-
         {/* Mobile Menu Toggle */}
         <button
           className="md:hidden text-white"
@@ -85,12 +75,6 @@ export default function Header() {
               {link.name}
             </a>
           ))}
-          <a 
-            href="https://checkout.payhypecontent.com.br/VCCL1O8SCQ5M"
-            className="bg-white text-black px-5 py-3 rounded-full text-center font-semibold"
-          >
-            Começar agora
-          </a>
         </motion.div>
       )}
     </header>

@@ -48,35 +48,14 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
-          >
-            <a 
-              href="https://checkout.payhypecontent.com.br/VCCL1O8SCQ5M"
-              className="w-full sm:w-auto bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-brand-gray transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.2)]"
-            >
-              Quero acessar agora
-              <ArrowRight className="w-5 h-5" />
-            </a>
-            <a 
-              href="#planos"
-              className="w-full sm:w-auto bg-transparent border border-white/10 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/5 transition-all text-center"
-            >
-              Ver oferta
-            </a>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-            className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-xs font-medium text-brand-gray uppercase tracking-widest"
+            className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm font-bold text-white uppercase tracking-widest"
           >
             <div className="flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-white" />
+              <div className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
               Pagamento único
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-white" />
+              <div className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
               Acesso vitalício
             </div>
           </motion.div>
