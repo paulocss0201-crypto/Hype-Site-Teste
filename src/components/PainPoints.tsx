@@ -35,12 +35,10 @@ export default function PainPoints() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6 leading-tight px-4">
               Se criar conteúdo hoje parece cansativo, confuso e inconsistente, <span className="text-brand-gray">o problema não é você</span>
             </h2>
-            <p className="text-lg text-brand-gray max-w-2xl mx-auto">
-              Você sabe que o Instagram pode ser uma vitrine poderosa, mas na prática, a maioria das pessoas trava. E enquanto isso, as vendas não acontecem.
-            </p>
+
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

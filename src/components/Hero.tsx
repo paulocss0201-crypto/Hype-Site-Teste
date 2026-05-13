@@ -30,7 +30,7 @@ export default function Hero() {
               delay: 0.2,
               ease: [0, 0.71, 0.2, 1.01]
             }}
-            className="text-5xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tighter text-glow"
+            className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-6 leading-[1.1] tracking-tighter text-glow px-4"
           >
             Transforme seu perfil em uma <span className="text-white">máquina de vendas</span>
           </motion.h1>
@@ -39,23 +39,23 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg md:text-xl text-brand-gray mb-10 max-w-2xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl text-brand-gray mb-10 max-w-2xl mx-auto leading-relaxed px-4"
           >
-            Tenha um time de agentes trabalhando 24/7 para gerar conteúdos e estratégia para o seu perfil crescer, engajar e vender.
+            Tenha um time de agentes trabalhando 24/7 no seu conteúdo
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm font-bold text-white uppercase tracking-widest"
+            className="flex items-center justify-center gap-x-4 sm:gap-x-8 text-[10px] sm:text-sm font-bold text-white uppercase tracking-widest"
           >
-            <div className="flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+            <div className="flex items-center gap-1.5 sm:gap-2">
+              <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-white animate-pulse" />
               Pagamento único
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+            <div className="flex items-center gap-1.5 sm:gap-2">
+              <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-white animate-pulse" />
               Acesso vitalício
             </div>
           </motion.div>

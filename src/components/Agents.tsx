@@ -30,12 +30,36 @@ export default function Agents() {
   ];
 
   const complementaryAgents = [
-    { icon: <MessageSquare className="w-5 h-5" />, title: "Stories Estratégicos" },
-    { icon: <UserCircle className="w-5 h-5" />, title: "Diagnóstico de Perfil" },
-    { icon: <Calendar className="w-5 h-5" />, title: "Calendário Estratégico" },
-    { icon: <MousePointer2 className="w-5 h-5" />, title: "CTA e Conversão" },
-    { icon: <FileText className="w-5 h-5" />, title: "Legendas Estratégicas" },
-    { icon: <BarChart className="w-5 h-5" />, title: "Análise de Performance" }
+    { 
+      icon: <MessageSquare className="w-5 h-5" />, 
+      title: "Stories Estratégicos",
+      desc: "Cria narrativas que aumentam o engajamento e a proximidade com seu público diariamente."
+    },
+    { 
+      icon: <UserCircle className="w-5 h-5" />, 
+      title: "Diagnóstico de Perfil",
+      desc: "Analisa sua bio, fotos e destaques para transformar seu perfil em uma vitrine magnética."
+    },
+    { 
+      icon: <Calendar className="w-5 h-5" />, 
+      title: "Calendário Estratégico",
+      desc: "Organiza suas pautas em um cronograma inteligente para que você nunca mais se perca."
+    },
+    { 
+      icon: <MousePointer2 className="w-5 h-5" />, 
+      title: "CTA e Conversão",
+      desc: "Cria chamadas para ação irresistíveis que transformam seguidores em clientes reais."
+    },
+    { 
+      icon: <FileText className="w-5 h-5" />, 
+      title: "Legendas Estratégicas",
+      desc: "Desenvolve textos persuasivos para seus posts que aumentam os comentários e salvamentos."
+    },
+    { 
+      icon: <BarChart className="w-5 h-5" />, 
+      title: "Análise de Performance",
+      desc: "Ajuda você a entender quais métricas realmente importam para o crescimento do seu perfil."
+    }
   ];
 
   return (
@@ -86,7 +110,7 @@ export default function Agents() {
               <div className="w-8 h-8 rounded-lg bg-white text-black flex items-center justify-center text-sm">02</div>
               Agentes Complementares
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {complementaryAgents.map((agent, i) => (
                 <motion.div
                   key={i}
@@ -94,12 +118,17 @@ export default function Agents() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.05 }}
-                  className="flex items-center gap-4 p-4 rounded-xl border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-colors"
+                  className="flex flex-col gap-2 p-5 rounded-xl border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-colors group"
                 >
-                  <div className="w-8 h-8 rounded-md bg-white text-black flex items-center justify-center shrink-0">
-                    {agent.icon}
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-md bg-white text-black flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+                      {agent.icon}
+                    </div>
+                    <span className="text-sm font-bold text-white">{agent.title}</span>
                   </div>
-                  <span className="text-sm font-semibold text-white">{agent.title}</span>
+                  <p className="text-[10px] sm:text-xs text-brand-gray leading-relaxed pl-11 -mt-2">
+                    {agent.desc}
+                  </p>
                 </motion.div>
               ))}
             </div>

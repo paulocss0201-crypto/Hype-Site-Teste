@@ -23,14 +23,11 @@ export default function Solution() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-8 leading-tight px-4">
               Foi por isso que criamos a <span className="text-brand-gray">Hype Content</span>
             </h2>
-            <p className="text-xl text-brand-gray mb-6 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-brand-gray mb-10 leading-relaxed px-4">
               A Hype Content é um sistema com agentes de IA treinados para ajudar você a criar conteúdos com mais clareza, estratégia e poder de conversão.
-            </p>
-            <p className="text-lg text-brand-gray mb-10">
-              Em vez de depender de inspiração, você passa a contar com um verdadeiro time de inteligência trabalhando com você 24/7.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12 text-left max-w-2xl mx-auto">
