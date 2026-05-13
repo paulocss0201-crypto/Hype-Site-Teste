@@ -65,7 +65,7 @@ export default function Pricing() {
             </div>
 
             <a 
-              href="https://checkout.payhypecontent.com.br/1NVDY0ZJ5V4"
+              href="https://checkout.payhypecontent.com.br/VCCL1O8SD1UC"
               className="w-full py-4 rounded-full border border-white text-white font-bold text-center hover:bg-white hover:text-black transition-all"
             >
               Comprar Plano Basic

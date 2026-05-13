@@ -30,7 +30,7 @@ export default function Hero() {
               delay: 0.2,
               ease: [0, 0.71, 0.2, 1.01]
             }}
-            className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-6 leading-[1.1] tracking-tighter text-glow px-4"
+            className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tighter text-glow px-4"
           >
             Transforme seu perfil em uma <span className="text-white">máquina de vendas</span>
           </motion.h1>
